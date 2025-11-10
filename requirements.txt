@@ -1,0 +1,12 @@
+beautifulsoup4
+requests
+pandas
+nltk
+spacy
+langdetect
+googletrans==4.0.0rc1
+scikit-learn
+matplotlib
+gensim
+wordcloud
+numpy
