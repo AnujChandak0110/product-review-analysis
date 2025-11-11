@@ -38,33 +38,37 @@ It demonstrates how classical methods can extract meaningful insights, sentiment
 ---
 
 ## 📁 Folder Structure
-product_review_analysis/
-├── data/
-│ ├── raw/ # Original scraped data
-│ ├── processed/ # Cleaned and translated reviews
-│ └── results/ # Output visualizations and CSVs
-│
-├── src/
-│ ├── preprocessing/ # Cleaning & translation scripts
-│ ├── analysis/ # POS, sentiment, vector & QA scripts
-│ └── summarization/ # Review summarization scripts
-│
-├── main.py # Pipeline entry point
-├── requirements.txt
-└── README.md
+product_review_analysis/    
+├── data/   
+│ ├── raw/ # Original scraped data  
+│ ├── processed/ # Cleaned and translated reviews   
+│ └── results/ # Output visualizations and CSVs 
+│   
+├── src/    
+│ ├── preprocessing/ # Cleaning & translation scripts   
+│ ├── analysis/ # POS, sentiment, vector & QA scripts   
+│ └── summarization/ # Review summarization scripts 
+│   
+├── main.py # Pipeline entry point  
+├── requirements.txt    
+└── README.md   
+
+---
 
 ## 🚀 How to Run
-1. Clone this repository  
-   git clone 
-   cd product_review_analysis
+1. Clone this repository    
+git clone https://github.com/AnujChandak0110/product-review-analysis.git    
+cd product_review_analysis  
 
-2. Install dependencies
-   pip install -r requirements.txt
+2. Install dependencies 
+pip install -r requirements.txt
 
-3. Run the main pipeline
-   python main.py
+3. Run the main pipeline    
+python main.py
 
 4. Choose the desired phase (Preprocessing → Sentiment → QA → Summarization)
+
+---
 
 ## 📊 Outputs
 - Sentiment distribution plots
